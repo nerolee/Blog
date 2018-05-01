@@ -7,7 +7,7 @@ title: Nero's blog
 subtitle: Where amazing happens
 description:
 keywords:
-author: Nero links
+author: Nero Li
 language: zh-CN
 timezone: Asia/Shanghai
 
@@ -81,3 +81,18 @@ deploy:
   type: git
   repo: https://github.com/nerolee/nerolee.github.io.git
   branch: master
+
+sitemap:
+  path: sitemap.xml
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+  
+# algolia:
+#   applicationID: '0VWQZ1UQ45'
+#   apiKey: 'e491450219209a7155c2439555174e1f'
+#   indexName: 'Nero_Blog'
+#   chunkSize: 5000
